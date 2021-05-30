@@ -1,7 +1,7 @@
 import Dynmappy
 
 
-class Dynmappy_move:
+class DynmappyMove:
     def __init__(self):
         self.mapnum = 0
         self.maplist = [
