@@ -29,6 +29,7 @@ Dynmappy(DynmapPath).output(hstart, hend, vstart, vend, dynmapSize, dynmapOutput
 # DynmappyMove
 
 これはとてもシンプルです<br>
+minecraft と同じディレクトリで実行してください<br>
 
 ## Import
 
