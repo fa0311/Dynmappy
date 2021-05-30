@@ -12,10 +12,6 @@ import Dynmappy
 ## How to use
 
 ```python
-import Dynmappy
-```
-
-```python
 dynmapPath = "plugins/dynmap/web/tiles/world/flat" #DynmapのPath flat以外も可
 hstart = -4 #左側の座標
 hend = 4 #右側の座標
@@ -26,7 +22,6 @@ dynmapOutputPath = "dynmap.jpn" #出力先ファイル opencvで利用できる�
 dynmapExistPath = "assets/image/128x128.png" #読み込み失敗時に表示する画像
 
 Dynmappy(DynmapPath).output(hstart, hend, vstart, vend, dynmapSize, dynmapOutputPath, dynmapExistPath)
-
 ```
 
 <br><br>
@@ -43,8 +38,6 @@ import DynmappyMove
 
 ## How to use
 
-インスタンスの作成<br>
-
 ```python
 config = [
     {
@@ -59,15 +52,7 @@ config = [
     }
 ]
 Instance = DynmappyMove(config)
-```
 
-config について<br>
-
-| name               | x                                                                | y                                                                |
-| ------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ワールドの名前です | Dynmap の読み込み時の x 座標です(minecraft の座標ではありません) | Dynmap の読み込み時の y 座標です(minecraft の座標ではありません) |
-
-```python
 Instance.up() #上に動く
 Instance.down() #下に動く
 Instance.right() #右に動く
